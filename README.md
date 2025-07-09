@@ -2,15 +2,11 @@
 
 This Python script converts a 24-bit RGB PNG image into a 16-bit RGB565 C bitmap structure, suitable for embedded systems. It's designed for microcontrollers that render bitmaps on LCDs or OLEDs, using RGB565 pixel data arranged in BMP-style format.
 
----
-
 ## Features
 
 - Converts PNG to 16-bit RGB565 format
 - Generates packed C structures compatible with BMP format
 - Supports little-endian and big-endian output (`RC()` macro)
-
----
 
 ## Requirements
 
@@ -22,8 +18,6 @@ Install Pillow with:
 ```bash
 pip install pillow
 ```
-
----
 
 # Usage
 ```bash
